@@ -150,3 +150,11 @@ Site footer
 .site-footer p {
   text-align: center
 }
+
+/* my style*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400&subset=cyrillic,latin);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
