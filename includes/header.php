@@ -4,7 +4,7 @@
 	<title><?php wp_title('•', true, 'right'); bloginfo('name'); ?></title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php wp_head(); ?>
 </head>
 
@@ -16,7 +16,7 @@
 </div>
 <![endif]-->
 
-<nav class="navbar navbar-default navbar-static-top">
+<!-- <nav class="navbar navbar-default navbar-static-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -51,9 +51,9 @@
             );
             wp_nav_menu($args);
         ?>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container -->
-</nav>
+    </div> --><!-- /.navbar-collapse -->
+  <!-- </div> --><!-- /.container -->
+<!-- </nav> -->
   
 <!--
 Site Title
@@ -72,3 +72,25 @@ See also the accompanying CSS example in css/bst.css .
   </div>
 </div>
 -->
+
+<div class="container">
+  <div class="row header">
+    <div class="col-sm-2 header-logo">
+      <img src="<?php echo get_bloginfo('template_directory');?>/img/logo.jpg" alt="logo">
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5 header-menu">
+      <ul>
+        <li><a href="#">Компания</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Портфолио</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-3 text-right phone">
+      <span>+7 (351) 750-28-28</span><br>
+      <a href="#">Заказать звонок</a>
+    </div>
+  </div>
+</div>

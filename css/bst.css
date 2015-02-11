@@ -158,3 +158,121 @@ Site footer
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 15px;
+}
+
+ul{
+  list-style: none;
+  margin: 0px;
+}
+
+a{
+  color: #000;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.container{
+  width: 1024px;
+}
+
+/*header*/
+.header{
+  margin-top: 50px;
+}
+
+.header-logo{
+  padding-left: 0px;
+}
+
+.header-menu{
+  padding-left: 0px;
+}
+
+.header-menu ul{
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.header-menu li{
+  display: inline-block;
+}
+
+.header-menu a{
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+
+.header-menu a:hover{
+  color: #fff;
+  background: #ec231b;
+  border-radius: 20px;
+}
+
+.phone{
+  line-height: 15px;
+}
+
+.phone span{
+  font-size: 25px;
+}
+
+.phone a{
+  font-size: 12px;
+}
+/*end header*/
+
+/*left menu*/
+.left-menu{
+  padding-left: 0px;
+}
+
+.left-menu ul{
+  line-height: 30px;
+  padding-left: 0px;
+}
+
+.left-menu a:hover{
+  color: #ec231b;
+}
+/*end left menu*/
+
+/*footer*/
+.footer-logo{
+  padding-left: 0px;
+}
+
+.footer ul{
+  line-height: 25px;
+}
+/*end footer*/
+
+.wrap{
+  display: flex;
+  flex-direction: row;
+}
+
+.wrap>div{
+  width: 19%;
+}
+
+.wrap a{
+  display: block;
+}

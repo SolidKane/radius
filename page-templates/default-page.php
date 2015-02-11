@@ -91,28 +91,26 @@
       <!-- блок "задай вопрос" -->
       <h2>— Услуги нашей компании</h2>
       <p>Наша команда специалистов всегда точно и быстро ответит на все ваши вопросы, не зависимо от того готовы ли вы сделать заказ Рекламное агентство "Радиус" вышло на рынок рекламы в 2003 цикл реализации заказа, и гарантировать качество производимой нами продукции. </p>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-2 text-center">
-            <img src="<?php echo get_bloginfo('template_directory');?>/img/services_1.jpg" alt="">
-            <a href="">Наружная реклама</a>
-          </div>
-          <div class="col-sm-2 text-center">
-            <img src="<?php echo get_bloginfo('template_directory');?>/img/services_2.jpg" alt="">
-            <a href="">Печать</a>
-          </div>
-          <div class="col-sm-2 text-center">
-            <img src="<?php echo get_bloginfo('template_directory');?>/img/services_3.jpg" alt="">
-            <a href="">Брендирование транспорта</a>
-          </div>
-          <div class="col-sm-2 text-center">
-            <img src="<?php echo get_bloginfo('template_directory');?>/img/services_4.jpg" alt="">
-            <a href="">Выставочные стенды</a>
-          </div>
-          <div class="col-sm-2 text-center">
-            <img src="<?php echo get_bloginfo('template_directory');?>/img/services_5.jpg" alt="">
-            <a href="">Внутренее оформление</a>
-          </div>
+      <div class="wrap">
+        <div class="text-center">
+          <img src="<?php echo get_bloginfo('template_directory');?>/img/services_1.jpg" alt="">
+          <a href="">Наружная реклама</a>
+        </div>
+        <div class="text-center">
+          <img src="<?php echo get_bloginfo('template_directory');?>/img/services_2.jpg" alt="">
+          <a href="">Печать</a>
+        </div>
+        <div class="text-center">
+          <img src="<?php echo get_bloginfo('template_directory');?>/img/services_3.jpg" alt="">
+          <a href="">Брендирование транспорта</a>
+        </div>
+        <div class="text-center">
+          <img src="<?php echo get_bloginfo('template_directory');?>/img/services_4.jpg" alt="">
+          <a href="">Выставочные стенды</a>
+        </div>
+        <div class="text-center">
+          <img src="<?php echo get_bloginfo('template_directory');?>/img/services_5.jpg" alt="">
+          <a href="">Внутренее оформление</a>
         </div>
       </div>
     </div>
