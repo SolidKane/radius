@@ -161,19 +161,29 @@ body{
 
 h1{
   font-size: 40px;
+  margin: 0px;
 }
 
 h2{
+  font-weight: bold;
   font-size: 20px;
+  margin: 0px;
 }
 
 h3{
+  font-weight: bold;
   font-size: 15px;
+  margin: 0px;
 }
 
 ul{
   list-style: none;
   margin: 0px;
+}
+
+p{
+  text-align: justify;
+  margin: 30px 0px;
 }
 
 a{
@@ -182,7 +192,8 @@ a{
 }
 
 a:hover{
-  color: #000;
+  color: #ec231b;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -193,6 +204,7 @@ a:hover{
 /*header*/
 .header{
   margin-top: 50px;
+  margin-bottom: 90px;
 }
 
 .header-logo{
@@ -248,21 +260,29 @@ a:hover{
   line-height: 30px;
   padding-left: 0px;
 }
-
-.left-menu a:hover{
-  color: #ec231b;
-}
 /*end left menu*/
 
-/*footer*/
-.footer-logo{
-  padding-left: 0px;
+/*content*/
+.row-items{
+  padding: 10px 0px;
+  margin-bottom: 30px;
 }
 
-.footer ul{
-  line-height: 25px;
+.row-items>div{
+  padding-left: 0px;
+  padding-right: 0px;
 }
-/*end footer*/
+
+.row-items img{
+  margin-bottom: 15px;
+}
+
+.row-items p{
+  line-height: 25px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
 
 .wrap{
   display: flex;
@@ -276,3 +296,67 @@ a:hover{
 .wrap a{
   display: block;
 }
+
+.about-services{
+  padding-top: 15px;
+  margin-bottom: 90px;
+}
+
+.about-services img{
+  margin-bottom: 10px;
+}
+/*end content*/
+
+/*footer*/
+.footer{
+  border-top: 4px solid #f6f6f6;
+  padding-top: 40px;
+  padding-bottom: 75px;
+}
+
+.footer ul{
+  line-height: 28px;
+}
+
+.footer-logo{
+  padding-left: 0px;
+}
+
+.footer-logo img{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.icon-social{
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.icon-social img{
+  margin: 0 5px;
+}
+
+.icon-social img:first-child{
+  margin: 0 0px;
+}
+
+.footer-about ul{
+  padding-left: 25px; 
+}
+
+.footer-services{
+  padding: 0px;
+}
+
+.footer-services ul{
+  padding-left: 8px;
+}
+
+.footer-contacts{
+  padding: 0px;
+}
+
+.footer-contacts ul{
+  padding-left: 35px;
+}
+/*end footer*/

@@ -16,13 +16,13 @@
     <div class="col-sm-2 footer-logo">
       <img src="<?php echo get_bloginfo('template_directory');?>/img/logo_footer.jpg" alt="logo footer"><br>
       <span>© Radius 2012</span>
-      <div class="row">
-        <div class="col-sm-4"><img src="<?php echo get_bloginfo('template_directory');?>/img/icon_social_vk.jpg" alt="vk"></div>
-        <div class="col-sm-4"><img src="<?php echo get_bloginfo('template_directory');?>/img/icon_social_inst.jpg" alt="inst"></div>
-        <div class="col-sm-4"><img src="<?php echo get_bloginfo('template_directory');?>/img/icon_social_f.jpg" alt="f"></div>
+      <div class="row icon-social">
+        <img src="<?php echo get_bloginfo('template_directory');?>/img/icon_social_vk.jpg" alt="vk">
+        <img src="<?php echo get_bloginfo('template_directory');?>/img/icon_social_inst.jpg" alt="inst">
+        <img src="<?php echo get_bloginfo('template_directory');?>/img/icon_social_f.jpg" alt="f">
       </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-2 footer-about">
       <ul>
         <span><b>О компании</b></span>
         <li><a href="#">Радиус</a></li>
@@ -32,7 +32,7 @@
         <li><a href="#">Отзывы</a></li>
       </ul>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-3 footer-services">
     <ul>
         <span><b>Услуги</b></span>
         <li><a href="#">Широкоформатная печать</a></li>
@@ -50,7 +50,7 @@
         <li><a href="#">Рекламные компании</a></li>
       </ul>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-2 footer-contacts">
       <ul>
         <span><b>Контакты</b></span>
         <li><a href="#">vradiuse@mail.ru</a></li>
