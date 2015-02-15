@@ -1,5 +1,5 @@
 <?php 
-  /* Template Name: Обычная страница */
+  /* Template Name: Наша компания */
   get_template_part('includes/header'); 
 ?>
 

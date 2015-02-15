@@ -305,6 +305,55 @@ a:hover{
 .about-services img{
   margin-bottom: 10px;
 }
+
+.team-row {
+  margin: 40px 0px;
+}
+
+.team-row p{
+  margin: 10px 0px;
+}
+
+.mini-hr{
+  width: 70px;
+  border-top: 2px solid #cccccc;
+  margin: 15px 0px;
+}
+
+.news-row{
+  height: 143px;
+  margin: 40px 0px;
+  overflow: hidden;
+}
+
+.news-row img{
+  width: 25%;
+  float: left;
+  display: block;
+}
+
+.news-right{
+  width: 75%;
+  padding-left: 25px;
+  float: left;
+}
+
+.news-right a{
+  font-size: 16px;
+}
+
+.news-date{
+  font-size: 12px;
+  margin: 10px 0px;
+}
+
+.news-right p{
+  margin: 10px 0px;
+}
+
+.clients{
+
+}
 /*end content*/
 
 /*footer*/
