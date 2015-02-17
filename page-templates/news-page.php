@@ -30,7 +30,7 @@
         <li><a href="#">Отзывы</a></li>
       </ul>
     </div>
-    <div class="col-sm-10">
+    <div class="col-sm-10 content">
       <h1>Новости</h1>
       <!-- хлебные крошки -->
       <div class="row news-row">

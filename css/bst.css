@@ -1,4 +1,4 @@
-/*
+
 Max content widths
 */
 .size-auto, 
@@ -257,12 +257,33 @@ a:hover{
 }
 
 .left-menu ul{
-  line-height: 30px;
   padding-left: 0px;
+}
+
+.left-menu li{
+  margin: 15px 0px;
+}
+
+.left-menu li:first-child{
+  margin: 0px;
+}
+
+.left-menu a{
+  display: block;
 }
 /*end left menu*/
 
 /*content*/
+.content{
+  padding: 0px;
+}
+.mini-hr{
+  width: 70px;
+  border-top: 2px solid #cccccc;
+  margin: 15px 0px;
+}
+
+/*about*/
 .row-items{
   padding: 10px 0px;
   margin-bottom: 30px;
@@ -284,28 +305,26 @@ a:hover{
   margin-bottom: 0px;
 }
 
-.wrap{
+.about-services{
   display: flex;
   flex-direction: row;
-}
-
-.wrap>div{
-  width: 19%;
-}
-
-.wrap a{
-  display: block;
-}
-
-.about-services{
   padding-top: 15px;
   margin-bottom: 90px;
+}
+
+.about-services>div{
+  width: 19%;
 }
 
 .about-services img{
   margin-bottom: 10px;
 }
 
+.about-services a{
+  display: block;
+}
+
+/*team*/
 .team-row {
   margin: 40px 0px;
 }
@@ -314,12 +333,7 @@ a:hover{
   margin: 10px 0px;
 }
 
-.mini-hr{
-  width: 70px;
-  border-top: 2px solid #cccccc;
-  margin: 15px 0px;
-}
-
+/*news*/
 .news-row{
   height: 143px;
   margin: 40px 0px;
@@ -351,9 +365,186 @@ a:hover{
   margin: 10px 0px;
 }
 
+/*clients*/
 .clients{
-
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.clients div{
+  width: 21%;
+}
+
+.clients a{
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+/*reviews*/
+.reviews-content{
+  padding-bottom: 90px;
+}
+
+.reviews{
+  margin: 35px 0px;
+  background: #f7f7f7;
+  border-radius: 75px;
+}
+
+.reviews img{
+  float: left;
+  width: 19%;
+  display: block;
+}
+
+.reviews-right{
+  float: left;
+  width: 81%;
+  padding: 20px 100px 20px 30px;
+}
+
+.reviews-right a{
+  display: block;
+  margin: 5px 0px;
+  font-size: 13px;
+}
+
+.reviews-right p{
+  margin: 0px;
+  font-size: 13px;
+}
+
+/*services*/
+.services-tehlist{
+  margin-top: 15px;
+  padding-right: 29px;
+}
+
+.services-tehlist img{
+  float: left;
+  width: 5%;
+}
+
+.services-tehlist p{
+  float: left;
+  width: 95%;
+  margin: 0px;
+  padding-left: 15px;
+}
+
+.services-items{
+  display: flex;
+  flex-direction: row;
+}
+
+.services-items>div{
+  width: 23%;
+  margin: 0px 5px;
+}
+
+.services-items a{
+  cursor: pointer;
+  display: block;
+}
+
+.services-items a:hover{
+  background: url(../img/services_item_hover.png);
+}
+
+.services-table{
+  border-top: 4px solid #f6f6f6;
+  width: 100%;
+  margin: 10px 0px 30px 0px;
+}
+
+.services-table tr{
+  border-bottom: 1px solid #f6f6f6;
+  padding: 10px 5px 10px 25px;
+}
+
+.services-table td{
+  padding: 5px 0px 5px 25px;
+}
+
+.services-table-left{
+  width: 87%;
+}
+
+.services-list{
+  list-style-type: disc;
+  color: #ea6560;
+}
+
+.services-list li{
+  margin: 15px 0px;
+}
+
+.services-list li:last-child{
+  margin-bottom: 50px;
+}
+
+/*news-detail*/
+.news-detail-content{
+  padding-bottom: 140px;
+}
+
+.news-detail-row img{
+  float: left;
+  margin-right: 25px;
+}
+
+.news-detail-row span{
+  font-size: 12px;
+}
+
+.news-detail-gallery{
+  display: flex;
+  flex-direcrion:column;
+  flex-wrap: wrap;
+}
+
+.news-detail-gallery>img{
+  width: 20%;
+}
+
+/*services-detail-row*/
+.services-detail-content{
+  padding-bottom: 125px;
+}
+
+.services-detail-row{
+  margin-top: 45px;
+}
+
+.services-detail-row>div{
+  width: 28.333333%;
+  margin: 0px 22px;
+}
+
+.services-detail-row a{
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
+
+.services-detail-row p{
+  font-size: 12px;
+  text-align: left;
+  padding-right: 5px;
+  margin: 5px 0px;
+}
+
+/*clients-detail*/
+.clients-detail-content{
+  padding-bottom: 90px;
+}
+
+.clients-detail-content p{
+  margin-top: 5px;
+}
+
+
 /*end content*/
 
 /*footer*/
@@ -387,6 +578,7 @@ a:hover{
 
 .icon-social img:first-child{
   margin: 0 0px;
+  margin-right: 5px;
 }
 
 .footer-about ul{
@@ -408,4 +600,4 @@ a:hover{
 .footer-contacts ul{
   padding-left: 35px;
 }
-/*end footer*/
+/*end footer

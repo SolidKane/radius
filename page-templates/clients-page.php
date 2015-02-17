@@ -30,58 +30,58 @@
         <li><a href="#">Отзывы</a></li>
       </ul>
     </div>
-    <div class="col-sm-10">
+    <div class="col-sm-10 content">
       <h1>Клиенты</h1>
       <p>Компани ООО РГ "Радиус" зарекомендовала себя как надежный подрядчик и поставщик рекламной продукции высокого 
 качества. Нашими клиентами являются ведущие предприятия по Челябинской области.</p>
       <div class="clients">
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
-        <div>
+        <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href=""></a>
+          <a href="#">ЗАО «Меридиан» транспортная компания</a>
         </div>
       </div>
     </div>
