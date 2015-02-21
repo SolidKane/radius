@@ -40,13 +40,14 @@
   </p>
         </div>
         <div class="news-detail-gallery">
-          <img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img">
-          <img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img">
-          <img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img">
-          <img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img">
-          <img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img">
-          <img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img">
-          <img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img">
+          <div><img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img"></div>
+          <div><img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img"></div>
+          <div><img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img"></div>
+          <div><img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img"></div>
+          <div><img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img"></div>
+          <div><img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img"></div>
+          <div><img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img"></div>
+          <div><img src="<?php echo get_bloginfo('template_directory');?>/img/news_detail_img.jpg" alt="news_detail_img"></div>
         </div>
       </div>
     </div>

@@ -39,10 +39,11 @@
           <p>Рекламное агентство "Радиус" вышло на рынок рекламы в 2003 году. Компания осуществляет полный цикл работ по производству рекламы. Работа всего коллектива направлена на одну цель - решение задач поставленных заказчиком, и как следствие, выход на долгосрочное сотрудничество. В нашем арсенале мы имеем собственные станки (плоттеры) широкоформатной и интерьерной печати, поэтому можем контролировать весь цикл реализации заказа, и гарантировать качество производимой нами продукции.</p>
         </div>
         <div class="col-sm-3">
-          <!-- кнопка -->
+          <button type="button" class="btn btn-danger">Задать вопрос</button>
+          <p>Вы можете заказать расчет услуги оставив свои данные для связи, наши специалисты свяжутся с вами о обсудят детали расчета</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row signs-row">
         <div class="col-sm-6">
           <h2>— Световые вывески</h2>
           <img src="<?php echo get_bloginfo('template_directory');?>/img/services_signs_left.jpg" alt="services_signs">
@@ -61,7 +62,7 @@
         </div>
         <div class="col-sm-6">
           <h2>— Несветовые вывески</h2>
-          <img src="<?php echo get_bloginfo('template_directory');?>/img/services_signs_right.jpg" alt="services_signs">
+          <img class="signs-left-img" src="<?php echo get_bloginfo('template_directory');?>/img/services_signs_right.jpg" alt="services_signs">
           <div class="services-tehlist">
             <img src="<?php echo get_bloginfo('template_directory');?>/img/services_icon_1.jpg" alt="services_icon_1">
             <p>Металокаркас - необходим для устойчивости вывески, служит основой, бывает несколько типов</p>
@@ -123,7 +124,11 @@
           <td>от 7500 руб.</td>
         </tr>
       </table>
-      <!-- блок "задай вопрос" -->
+      <div class="question">
+        <button type="button" class="btn btn-danger">Задать вопрос</button>
+        <img src="<?php echo get_bloginfo('template_directory');?>/img/tire.png" alt="-">
+        <p>Задайте вопрос на сайте и мы свяжемся с вами в ближайшее вермя и ответим на все интересющие вас вопросы</p>
+      </div>
       <h2>— Так же вам может понадобится</h2>
       <ul class="services-list">
         <li><a href="">Композитные короба</a></li>

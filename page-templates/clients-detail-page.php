@@ -39,11 +39,47 @@
           <img src="<?php echo get_bloginfo('template_directory');?>/img/reviews_face_1.png" alt="reviews_face_1">
           <div class="reviews-right">
             <b>Алеся Бигильдеева генеральный директор «ЗАО» Меридиан</b>
-            <p>Дружу с «Галакси» 2 года. Очень удобно работать, когда нужны небольшие партии печатной продукции — в моем бизнесе ситуация меняется очень быстро и часто нужно что-то подправлять в каталогах. Очень порадовала оперативная команда, которая работает с вывесками
-  В Галакси прекрасно все для клиента, потому что о них заботятся и стараются помочь, дать чуть больше чем это возможно. Это конечно заслуга Алексея Д. — прекрасного управленца и просто душевного человека.</p>
+            <p>Дружу с «Галакси» 2 года. Очень удобно работать, когда нужны небольшие партии печатной продукции — в моем бизнесе ситуация меняется очень быстро и часто нужно что-то подправлять в каталогах. Очень порадовала оперативная команда, которая работает с вывесками</p>
           </div>
         </div>
         <h2>— Было сделанно</h2>
+        <div class="clients-detail-jobs">
+          <div>
+            <a href="">
+              <img src="<?php echo get_bloginfo('template_directory');?>/img/services_item_1.jpg" alt="services_item_1">
+            </a>
+            <b>ЗАО «Мередиан»</b>
+            Брендирования камаза
+          </div>
+          <div>
+            <a href="">
+              <img src="<?php echo get_bloginfo('template_directory');?>/img/services_item_1.jpg" alt="services_item_1">
+            </a>
+            <b>ЗАО «Мередиан»</b>
+            Брендирования камаза
+          </div>
+          <div>
+            <a href="">
+              <img src="<?php echo get_bloginfo('template_directory');?>/img/services_item_1.jpg" alt="services_item_1">
+            </a>
+            <b>ЗАО «Мередиан»</b>
+            Брендирования камаза
+          </div>
+          <div>
+            <a href="">
+              <img src="<?php echo get_bloginfo('template_directory');?>/img/services_item_1.jpg" alt="services_item_1">
+            </a>
+            <b>ЗАО «Мередиан»</b>
+            Брендирования камаза
+          </div>
+          <div>
+            <a href="">
+              <img src="<?php echo get_bloginfo('template_directory');?>/img/services_item_1.jpg" alt="services_item_1">
+            </a>
+            <b>ЗАО «Мередиан»</b>
+            Брендирования камаза
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -37,51 +37,51 @@
       <div class="clients">
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
         <div class="text-center">
           <img src="<?php echo get_bloginfo('template_directory');?>/img/client_icon_1.jpg" alt="client_icon_1">
-          <a href="#">ЗАО «Меридиан» транспортная компания</a>
+          <a href="#">ЗАО «Меридиан»<br>транспортная компания</a>
         </div>
       </div>
     </div>
