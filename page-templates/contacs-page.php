@@ -65,10 +65,10 @@
   <h2>— Напишите нам</h2>
   <span>Разрешите нам вывести ваш бизнес на новый уровень!</span>
   <div>
-    <input type="text" value="Имя">
-    <input type="text" value="Телефон">
-    <input type="text" value="Email">
-    <textarea name="" id="" cols="30" rows="8">Сообщение</textarea>
+    <input type="text" placeholder="Имя *">
+    <input type="text" placeholder="Телефон *">
+    <input type="text" placeholder="Email">
+    <textarea name="" id="" cols="30" rows="8" placeholder="Сообщение"></textarea>
     <button type="button" class="btn btn-danger">Отправить</button>
   </div>
 </div>
