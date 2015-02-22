@@ -39,8 +39,31 @@
           <p>Рекламное агентство "Радиус" вышло на рынок рекламы в 2003 году. Компания осуществляет полный цикл работ по производству рекламы. Работа всего коллектива направлена на одну цель - решение задач поставленных заказчиком, и как следствие, выход на долгосрочное сотрудничество. В нашем арсенале мы имеем собственные станки (плоттеры) широкоформатной и интерьерной печати, поэтому можем контролировать весь цикл реализации заказа, и гарантировать качество производимой нами продукции.</p>
         </div>
         <div class="col-sm-3 calculate">
-          <button type="button" class="btn btn-danger">Расчитать стоимость<br>изготовление</button>
+          <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Расчитать стоимость<br>изготовление</button>
           <p>Вы можете заказать расчет услуги оставив свои данные для связи, наши специалисты свяжутся с вами о обсудят детали расчета</p>
+        </div>
+      </div>
+      <!-- Modal calculate-->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog calculate-modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header calculate-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="<?php echo get_bloginfo('template_directory');?>/img/closs.png" alt="closs"></button>
+              <img src="<?php echo get_bloginfo('template_directory');?>/img/modal_calculate_img.png" alt="modal_calculate_img">
+              <h2>Рассчитать стоимость изготовление</h2>
+              <p>Время работы менеджеров компании с 9:00 - 18:00<br>выходной суббота, воскресение</p>
+            </div>
+            <div class="modal-body calculate-body">
+                <input type="text" placeholder="Имя *">
+                <input type="text" placeholder="Телефон *">
+                <input type="text" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="8" placeholder="Сообщение"></textarea>
+            </div>
+            <div class="modal-footer calculate-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Расчитать</button>
+                <p><span>*</span> — поля обязательные<br>для заполнения.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row signs-row">
@@ -125,9 +148,32 @@
         </tr>
       </table>
       <div class="question">
-        <button type="button" class="btn btn-danger text-center">Задать вопрос</button>
+        <button type="button" class="btn btn-danger text-center" data-toggle="modal" data-target="#myModalquestion">Задать вопрос</button>
         <img src="<?php echo get_bloginfo('template_directory');?>/img/tire.png" alt="-">
         <p>Задайте вопрос на сайте и мы свяжемся с вами в ближайшее вермя и ответим на все интересющие вас вопросы</p>
+      </div>
+      <!--Modal question-->
+      <div class="modal fade" id="myModalquestion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog calculate-modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header calculate-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="<?php echo get_bloginfo('template_directory');?>/img/closs.png" alt="closs"></button>
+              <img src="<?php echo get_bloginfo('template_directory');?>/img/modal_question_img.png" alt="modal_question_img">
+              <h2>Рассчитать стоимость изготовление</h2>
+              <p>Время работы менеджеров компании с 9:00 - 18:00<br>выходной суббота, воскресение</p>
+            </div>
+            <div class="modal-body calculate-body">
+                <input type="text" placeholder="Имя *">
+                <input type="text" placeholder="Телефон *">
+                <input type="text" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ваш вопрос, комментарии:"></textarea>
+            </div>
+            <div class="modal-footer calculate-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Расчитать</button>
+                <p><span>*</span> — поля обязательные<br>для заполнения.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <h2>— Так же вам может понадобится</h2>
       <ul class="services-list">

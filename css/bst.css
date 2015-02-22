@@ -921,6 +921,230 @@ a:hover{
   margin-top: 10px;
 }
 
+/*Modal calculate & question*/
+.modal-backdrop{
+  background-color: #fff;
+}
+
+.modal-backdrop.in{
+  opacity: .8;
+}
+
+.modal-content{
+  border-radius: 0px;
+}
+
+.modal-header .close{
+  margin-top: 0px;
+}
+
+.close{
+  opacity: 1;
+}
+
+.calculate-modal-dialog{
+  margin: 135px auto;
+  width: 550px;
+}
+
+.calculate-header{
+  background: #ec231b;
+  color: #fff;
+  padding-left: 30px;
+  border-bottom: 0px;
+}
+
+.calculate-header:after{
+  background: url(../img/calculate_after_img.png);
+}
+
+.calculate-header img{
+  float: left;
+}
+
+.calculate-header h2{
+  margin-left: 85px;
+}
+
+.calculate-header p{
+  margin: 5px;
+  margin-left: 85px;
+}
+
+.calculate-body{
+  padding: 25px;
+}
+
+.calculate-body input{
+  color: #000;
+  font-size: 13px;
+  margin-top: 25px;
+  border-radius: 0px;
+  border-bottom: 0px;
+  border-top: 1px solid #6d6e6f;
+  background: #f9f9f9;
+  padding-left: 25px;
+}
+
+.calculate-body input::-webkit-input-placeholder {color:#000;}
+.calculate-body input::-moz-placeholder          {color:#000;}
+.calculate-body input:-moz-placeholder           {color:#000;}
+.calculate-body input:-ms-input-placeholder      {color:#000;}
+.calculate-body textarea::-webkit-input-placeholder {color:#000;}
+.calculate-body textarea::-moz-placeholder          {color:#000;}
+.calculate-body textarea:-moz-placeholder           {color:#000;}
+.calculate-body textarea:-ms-input-placeholder      {color:#000;}
+
+.calculate-body input:focus{
+  border-color: #ccc;
+  box-shadow: none;
+  border-top: 1px solid #6d6e6f;
+}
+
+.calculate-body textarea{
+  color: #000;
+  font-size: 13px;
+  margin-top: 25px;
+  border-radius: 0px;
+  border-bottom: 0px;
+  border-top: 1px solid #6d6e6f;
+  background: #f9f9f9;
+  padding-left: 25px;
+}
+
+.alculate-body textarea:focus{
+  border-color: #ccc;
+  box-shadow: none;
+  border-top: 1px solid #6d6e6f;
+}
+
+.calculate-footer{
+  text-align: left;
+  border-top: 0px;
+  padding: 0px 65px;
+  padding-bottom: 35px;
+}
+
+.calculate-footer p{
+  line-height: 18px;
+  font-size: 13px;
+  margin: 5px 0px;
+  padding-left: 260px;
+}
+
+.calculate-footer span{
+  color: #ec231b;
+  font-size: 18px;
+}
+
+.calculate-footer button{
+  float: left;
+  border-radius: 0px;
+  padding: 10px 65px;
+  font-size: 17px;
+  border: 0px;
+  border-bottom: 3px solid #b93d39;
+  background-color: #EE8581; background-image: -webkit-gradient(linear, left top, left bottom, from(#EE8581), to(#E85953));
+  background-image: -webkit-linear-gradient(top, #EE8581, #E85953);
+  background-image: -moz-linear-gradient(top, #EE8581, #E85953);
+  background-image: -ms-linear-gradient(top, #EE8581, #E85953);
+  background-image: -o-linear-gradient(top, #EE8581, #E85953);
+  background-image: linear-gradient(to bottom, #EE8581, #E85953);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#EE8581, endColorstr=#E85953);
+}
+
+.calculate-footer button:active, .calculate-footer button:focus, .calculate-footer button:hover{
+  outline: none;
+  box-shadow: none;
+}
+
+.calculate-footer button:focus:active{
+  outline: none;
+}
+
+/*thank you*/
+.thank-you{
+  padding: 200px 0px;
+}
+
+.thank-you img{
+  margin-bottom: 30px;
+}
+
+.thank-you button{
+  border-radius: 0px;
+  margin: 25px 0px;
+  padding: 10px 15px;
+  font-size: 17px;
+  border: 0px;
+  border-bottom: 3px solid #b93d39;
+  background-color: #EE8581; background-image: -webkit-gradient(linear, left top, left bottom, from(#EE8581), to(#E85953));
+  background-image: -webkit-linear-gradient(top, #EE8581, #E85953);
+  background-image: -moz-linear-gradient(top, #EE8581, #E85953);
+  background-image: -ms-linear-gradient(top, #EE8581, #E85953);
+  background-image: -o-linear-gradient(top, #EE8581, #E85953);
+  background-image: linear-gradient(to bottom, #EE8581, #E85953);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#EE8581, endColorstr=#E85953);
+}
+
+.thank-you button:active, .thank-you button:focus, .thank-you button:hover{
+  outline: none;
+  box-shadow: none;
+}
+
+.thank-you button:focus:active{
+  outline: none;
+}
+
+.thank-you p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*error*/
+.error{
+  margin: 180px 50px;
+  padding: 120px 50px;
+  border: 8px solid #d5d5d5;
+}
+
+.error img{
+  width: 100%;
+  margin-top: 18px;
+}
+
+.error-bold{
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+.error p{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.error button{
+  border-radius: 0px;
+  margin: 15px 0px;
+  padding: 10px 15px;
+  font-size: 17px;
+  border: 0px;
+  border-bottom: 3px solid #b93d39;
+  background-color: #EE8581; background-image: -webkit-gradient(linear, left top, left bottom, from(#EE8581), to(#E85953));
+  background-image: -webkit-linear-gradient(top, #EE8581, #E85953);
+  background-image: -moz-linear-gradient(top, #EE8581, #E85953);
+  background-image: -ms-linear-gradient(top, #EE8581, #E85953);
+  background-image: -o-linear-gradient(top, #EE8581, #E85953);
+  background-image: linear-gradient(to bottom, #EE8581, #E85953);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#EE8581, endColorstr=#E85953);
+}
+
+.error button:active, .error button:focus, .error button:hover{
+  outline: none;
+  box-shadow: none;
+}
+
+.error button:focus:active{
+  outline: none;
+}
+
 /*footer*/
 .footer{
   border-top: 4px solid #f6f6f6;
